@@ -56,7 +56,7 @@ static void memdump(wchar_t *filename, unsigned char *buf, size_t size)
 static void patchLabel()
 {
 	static const char verOrig[VER_LEN] = "Ver.";
-	static const char verEmu[VER_LEN] = "RX-E";
+	static const char verEmu[VER_LEN] = "Ver.";
 	static const char verSys[VER_LEN] = "RX-S";
 	uintptr_t top, btm;
 	wchar_t *p;
