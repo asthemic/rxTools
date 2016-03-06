@@ -185,7 +185,7 @@ static void warn(const wchar_t *format, ...)
 	ConsoleShow();
 }
 
-void main()
+int main(void)
 {
 	static const TCHAR fontPath[] = _T("") SYS_PATH "/" FONT_NAME;
 	void *fontBuf;
